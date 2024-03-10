@@ -1,0 +1,69 @@
+/* Main content styles */
+.main-content {
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Individual section styles */
+  .section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.9); /* 90% transparency white */
+  }
+  
+  /* Header styles */
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    color: #777;
+  }
+
+  /* HomePage.css */
+
+  .home-page-container {
+      display: flex;
+      overflow-y: scroll;
+      flex-direction: column;
+      scroll-snap-type: y mandatory;
+      width:100%;
+      height: 100vh; 
+    }
+    
+.custom-header {
+  
+  background-color: black;
+  padding: 1rem;
+  color:black;
+  height: 80px;
+  padding-bottom: 19px;
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  z-index: 1; /* Ensures the container takes at least the full height of the viewport */
+}
+
+/* Set a fixed height for Header and Footer */
+.Header, .Footer {
+  height: 60px; /* Adjust the height as needed */
+}
+
+.BodyHomePage {
+  flex-grow: 1; /* Makes the BodyHomePage take up remaining space */
+  overflow-y: auto; /* Enables vertical scrolling if content overflows */
+}
+
+  

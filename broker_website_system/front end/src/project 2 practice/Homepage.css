@@ -1,0 +1,31 @@
+.navigation
+{
+    background-color: grey;
+    width: 100%;
+    position: fixed;
+    padding:18px;
+
+    align-items: center;
+    justify-content: center;
+       flex-direction: column;
+
+}
+.pages
+{
+padding-top: 40px;
+}
+.about
+{
+    background-color: darkgrey;
+    height:500px;
+}
+.donate
+{
+    background-color: darkslateblue;
+    height:500px;
+}
+.tnx
+{
+    background-color: darkseagreen;
+    height:500px;   
+}

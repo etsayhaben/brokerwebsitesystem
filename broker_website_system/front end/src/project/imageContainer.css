@@ -1,0 +1,10 @@
+.image-container
+{
+    display: flex;
+    flex-direction: row;
+}
+.image-item
+{
+    display:flex;
+    flex-direction: row;
+}

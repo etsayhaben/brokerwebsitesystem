@@ -1,0 +1,76 @@
+/* Footer.css */
+
+.footer {
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    height:50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align items to the left */
+    background-color: rgb(255, 255, 255); /* Black color with 70% opacity */
+    color:black;
+    padding: 10px 20px;
+    z-index: 1000;
+    /* Add any additional styling for the footer container */
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* Adjust layout properties as needed */
+  }
+  
+  .footer-section {
+    flex: 1;
+    max-width: 300px;
+    margin: 20px 0px;
+    /* Additional styles for each section */
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 10px;
+    /* Heading styles */
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    /* Paragraph styles */
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-section a {
+    color: #fff;
+    text-decoration: none;
+    /* Link styles */
+  }
+  
+  .footer-bottom {
+    background-color: rgba(51, 51, 51, 0.5); /* Change the alpha value (0.5 in this case) for transparency */
+  color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    /* Additional styles for the bottom section */
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    /* Social icon styles */
+  }
+  

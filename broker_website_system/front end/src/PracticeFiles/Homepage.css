@@ -1,0 +1,14 @@
+body{
+   
+}
+.main-container {
+    min-height: 100vh;
+    overflow-y:auto /* Ensure the content exceeds the viewport height */
+    /* Other styles for your main container */
+  }
+
+h1 {
+    font-size: 3rem; /* Adjust the size of h1 */
+    margin-bottom: 20px; /* Add spacing between h1 elements */
+    color: #0066cc; /* Change the color of h1 */
+  }

@@ -1,0 +1,80 @@
+/* Set a consistent margin for the body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Set the padding for the container */
+.container {
+    padding: 16px;
+}
+
+/* Set the style for the header */
+header {
+    background-color: #f8f9fa;
+    padding: 16px;
+    text-align: center;
+}
+
+/* Set the style for the header link */
+header a {
+    color: #212529;
+    text-decoration: none;
+}
+
+/* Set the style for the header link on hover */
+header a:hover {
+    color: #007bff;
+}
+
+/* Set the style for the card container */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Set the style for the card */
+.card {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 16px;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Set the style for the card on hover */
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Set the style for the card link */
+.card a {
+    color: #212529;
+    text-decoration: none;
+}
+
+/* Set the style for the card link on hover */
+.card a:hover {
+    color: #007bff;
+}
+
+/* Set the style for the footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 16px;
+    text-align: center;
+}
+
+/* Set the style for the footer link */
+footer a {
+    color: #212529;
+    text-decoration: none;
+}
+
+/* Set the style for the footer link on hover */
+footer a:hover {
+    color: #007bff;
+}

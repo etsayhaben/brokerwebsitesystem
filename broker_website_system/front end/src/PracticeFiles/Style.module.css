@@ -1,0 +1,35 @@
+.todoadd
+{
+    color:white;
+    background-color: black;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-left:8px;
+
+}
+.tolistinput
+{
+    margin-top: 12px;
+    margin-bottom:12px;
+}
+.todolistapp
+{
+    background-color: bisque;
+    position: fixed;
+    top:3px;
+    left:233px;
+   border:2px solid red;
+   width:300px;
+   overflow: none; 
+   text-align:center;
+
+}
+.todolistDelete
+{
+    position: relative;
+    left:3px;
+    margin-bottom: 12px;
+    border-radius: 14px;
+    background-color: red;;
+    
+}

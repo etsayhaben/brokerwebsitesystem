@@ -1,0 +1,15 @@
+img{
+    width:400px;
+    height:400px;
+    margin:23px;
+    padding:2px;
+}
+.featured-products{
+    display:flex;
+    margin:12px;
+    padding:12px;
+}
+h2
+{
+    text-align: center;
+}

@@ -1,0 +1,67 @@
+* styles.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.login
+{
+    position: fixed;
+    right:0px;
+    top:0px;
+    text-align:center;
+    padding:23px;
+}
+
+/* Header styles */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Search bar styles */
+form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 300px;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Featured products section styles */
+h2 {
+  margin-top: 20px;
+}
+
+/* User authentication links styles */
+div > button {
+  margin-right: 10px;
+}
+
+/* Informational sections styles */
+p {
+  text-align: center;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #f4f4f4;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

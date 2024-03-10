@@ -1,0 +1,20 @@
+.slideshow-container
+{
+    position:relative;
+    top: 50px;
+    width: 800px;
+    height: 900px;
+    border-radius: 50px;
+}
+h5{
+    position: fixed;
+    right: 200px;
+    top:100px;
+    width: 300px;
+    height: 100px;
+    font-size: 30px;
+}
+.imgg
+{
+    border-radius: 10px;
+}

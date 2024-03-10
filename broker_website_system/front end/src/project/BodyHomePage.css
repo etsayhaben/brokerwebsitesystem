@@ -1,0 +1,164 @@
+/* BodyHomePage.css */
+
+.body-container {
+    background-image: url('./image/abelbackground.jpeg');
+
+    margin-top: 80px;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the last value (0.5) for the desired opacity */
+    text-align: center;
+    padding-top: 20px; /* Add padding to the container */
+    box-sizing: border-box; /* Include padding in the height calculation */
+}
+h4
+{margin-top: 0px;
+    font-size: 50px;
+}
+.buyingahome
+{
+   width:400px;
+   height: 400px;
+   border-radius: 20px;
+   
+}
+.row {
+    display: flex;
+    }
+    
+    .column {
+    flex: 33.33%;
+    padding: 5px;
+    }
+
+.descri
+{
+    border:2px solid red;
+    width:500px;
+    height:200px;
+    color:black;
+    font-size: 50px;
+
+}
+
+.headings {
+    margin-bottom: 20px;
+    padding:50px;
+    border: 2px solid red;
+}
+.exprience
+{
+    width: 600px;
+    height: 300px;
+    color: black;
+    font-weight: bold;
+    
+
+}
+
+
+.headings h2 {
+    margin: 0;
+    text-align: center;
+    color:black;
+    font-size: 34px;
+}
+h2{
+   text-align: center;
+}
+
+.section {
+    background-color: red;
+    padding: 20px; /* Add some padding for better visibility */
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap; /* Allow images to wrap to the next line if needed */
+    justify-content: space-around; /* Center the images horizontally */
+    margin-bottom: 20px;
+}
+
+.bttn
+{
+    width:100%;
+}
+.button1
+{
+   position:fixed;
+   left:140px;
+   
+}
+.button3
+{
+    position:fixed;
+    right:180px;
+}
+.images img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    background-color: cyan;
+}
+
+.contentonsell {
+    display: flex;
+    font-size: 30px;
+    flex: 1;
+    max-width: 900px; /* Adjust as needed */
+    box-sizing: border-box;
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  .descriptionsell {
+    font-size: 50px;
+    flex: 1; /* Take up remaining space in the row */
+    padding: 20px; /* Add some spacing between description and image */
+  }
+  
+  .image {
+    position: relative;
+      right:0px;
+      padding-left: 10px;
+     width: 300px;
+     height: 300px;/* Ensure the image doesn't exceed its container */
+  }
+  
+
+.button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color:none;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.someword
+{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px;
+    color: black;
+}
+.more
+{
+    width: 250px;
+}
+.buy
+{
+    background-color:white;
+    color:black;
+}
+.sell
+{
+    width: 600px;
+    height: 500px;
+}
+.trustship
+{
+    width:300px;
+}
+.share
+{
+    font-size: 50px;
+    color: black;
+}

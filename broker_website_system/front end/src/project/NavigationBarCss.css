@@ -1,0 +1,61 @@
+/* Navbar styles */
+.navbar {
+  display: flex;
+  opacity:100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background-color: rgba(255, 255, 255, 0.5); /* 50% transparency white */
+  backdrop-filter: blur(10px); /* Adds a blur effect to the background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+
+/* Logo styles */
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+/* Navigation styles */
+.navigation ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.navigation ul li input[type="text"] {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+.navigation ul li input[type="text"]:focus {
+  border-color: #007bff; /* Highlight text field on focus */
+}
+
+.navigation ul li button {
+  padding: 8px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navigation ul li button:hover {
+  background-color: #0056b3;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.navigation ul li a:hover {
+  color: #007bff;
+}
